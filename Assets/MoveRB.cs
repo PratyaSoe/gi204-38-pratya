@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
 
-    public Rigidbody RB3D;
+    public Rigidbody MoveRB;
 
     // Start is called before the first frame update
     void Start()
@@ -19,22 +19,22 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKey("w"))
         {
-            RB3D.AddForce(0, 0, 50);
+            MoveRB.AddForce(0, 0, 50);
         }
 
         if (Input.GetKey("a"))
         {
-            RB3D.AddForce(-50, 0, 0);
+            MoveRB.AddForce(-50, 0, 0);
         }
 
         if (Input.GetKey("d"))
         {
-            RB3D.AddForce(50, 0, 0);
+            MoveRB.AddForce(50, 0, 0);
         }
 
         if (Input.GetKey("s"))
         {
-            RB3D.AddForce(0, 0, -50);
+            MoveRB.AddForce(0, 0, -50);
         }
 
     }
