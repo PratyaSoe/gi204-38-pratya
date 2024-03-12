@@ -266,7 +266,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &554781611
@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc43577b36c94a4e95292c62647bf75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RB3D: {fileID: 612116939}
+  MoveRB: {fileID: 612116939}
 --- !u!143 &612116945
 CharacterController:
   m_ObjectHideFlags: 0
@@ -639,7 +639,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &682492616
